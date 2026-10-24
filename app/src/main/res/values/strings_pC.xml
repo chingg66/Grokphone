@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- CameraScreen -->
+    <string name="cam_camera">相機</string>
+    <string name="cam_no_camera_detected">沒有檢測到可用相機，或系統限制了相機參數讀取。</string>
+    <string name="cam_permission_title">相機權限</string>
+    <string name="cam_permission_desc">授予相機權限後可進行「即時幀檢測」：實際打開鏡頭約 2 秒，測量真實輸出解析度與幀率，與下方標稱像素對照。相機參數本身不需要權限，這裡的權限只用於打開鏡頭實測。</string>
+    <string name="cam_live_probe_title">即時幀檢測</string>
+    <string name="cam_live_probe_desc">打開預設後置鏡頭（無後置則用第一顆），以感測器支援的最大 YUV 尺寸串流並採樣幀率。</string>
+    <string name="cam_probing">檢測中…</string>
+    <string name="cam_start_probe">開始檢測</string>
+    <string name="cam_probe_failed">檢測失敗</string>
+    <string name="cam_probe_failed_with_error">檢測失敗：%1$s</string>
+    <string name="cam_actual_output">實際輸出</string>
+    <string name="cam_measured_fps">實測幀率</string>
+    <string name="cam_measured_fps_value">%1$.1f fps（%2$d 幀）</string>
+    <string name="cam_nominal_pixels">標稱像素</string>
+    <string name="cam_nominal_pixel_value">%1$,d 像素</string>
+    <string name="cam_facing_camera">%1$s相機</string>
+    <string name="cam_exact_pixels">精確像素：%1$s</string>
+    <string name="cam_aperture">光圈</string>
+    <string name="cam_focal_length">焦距</string>
+    <string name="cam_sensor_size">感測器尺寸</string>
+    <string name="cam_zoom_range">變焦範圍</string>
+    <string name="cam_max_fps">最大幀率</string>
+    <string name="cam_flash">閃光燈</string>
+    <string name="cam_flash_supported">支援</string>
+    <string name="cam_flash_unsupported">不支援</string>
+
+    <!-- SystemScreen -->
+    <string name="sys_full_fingerprint">完整構建指紋</string>
+    <string name="sys_device">裝置</string>
+    <string name="sys_fingerprint">指紋</string>
+    <string name="sys_model">型號</string>
+    <string name="sys_product">產品</string>
+    <string name="sys_device_name">設備</string>
+    <string name="sys_board">主板</string>
+    <string name="sys_manufacturer">製造商</string>
+    <string name="sys_brand">品牌</string>
+    <string name="sys_hardware">硬體</string>
+    <string name="sys_baseband">基頻</string>
+    <string name="sys_os">作業系統</string>
+    <string name="sys_rom_version">版本號</string>
+    <string name="sys_security_patch">安全補丁</string>
+    <string name="sys_kernel">核心</string>
+    <string name="sys_build_type">構建類型</string>
+    <string name="sys_build_info">構建資訊</string>
+    <string name="sys_build_id">構建 ID</string>
+    <string name="sys_build_time">構建時間</string>
+    <string name="sys_build_tags">構建標籤</string>
+    <string name="sys_serial">序列號</string>
+    <string name="sys_restricted_by_system">受系統限制</string>
+
+    <!-- SensorsScreen -->
+    <string name="sen_sensors">感測器</string>
+    <string name="sen_available_sensors_suffix">個可用感測器</string>
+    <string name="sen_expand_hint">展開任意一項即可看到實時讀數；離開頁面自動註銷監聽。</string>
+    <string name="sen_unit">單位：%1$s</string>
+    <string name="sen_waiting_data">等待資料…（部分感測器需要硬體事件觸發）</string>
+    <string name="sen_vendor">供應商</string>
+    <string name="sen_max_range">最大量程</string>
+    <string name="sen_resolution">解析度</string>
+    <string name="sen_power">功耗</string>
+    <string name="sen_wake_up">喚醒感測器</string>
+    <string name="sen_value">值</string>
+    <string name="sen_value_n">值 %1$d</string>
+
+    <!-- DeviceiNfoRoot -->
+    <string name="root_loading_model">正在讀取設備資訊</string>
+    <string name="root_changelog">更新日誌</string>
+    <string name="root_collecting">正在採集設備資訊…</string>
+    <string name="root_error">出錯了</string>
+    <string name="root_retry">重新採集</string>
+</resources>

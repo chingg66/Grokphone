@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">機懂</string>
+    <string name="widget_description">電池、記憶體、儲存佔用一覽</string>
+    <string name="overlay_notification_channel">電池懸浮窗</string>
+    <string name="overlay_notification_text">電池懸浮窗運行中，顯示溫度 / 電量 / 功耗</string>
+
+    <!-- 頂部導航 -->
+    <string name="tab_dashboard">儀錶板</string>
+    <string name="tab_hardware">硬體</string>
+    <string name="tab_system">系統</string>
+    <string name="tab_battery">電池</string>
+    <string name="tab_network">網路</string>
+    <string name="tab_apps">應用程式</string>
+    <string name="tab_camera">相機</string>
+    <string name="tab_sensors">感測器</string>
+
+    <!-- 主題循環按鈕 -->
+    <string name="theme_follow_system">主題：跟隨系統</string>
+    <string name="theme_dynamic">主題：動態取色</string>
+    <string name="theme_dark">主題：深色</string>
+    <string name="theme_light">主題：淺色</string>
+
+    <!-- v1.14.0 歡迎頁 / 外觀 -->
+    <string name="appearance_title">外觀</string>
+    <string name="appearance_subtitle">深淺模式與應用色彩</string>
+    <string name="appearance_mode_section">深淺模式</string>
+    <string name="appearance_accent_section">應用色彩</string>
+    <string name="ob_dark_system">跟隨系統</string>
+    <string name="ob_dark_light">淺色</string>
+    <string name="ob_dark_dark">深色</string>
+    <string name="ob_title">歡迎使用 機懂</string>
+    <string name="ob_subtitle">先花一分鐘把權限與外觀設好，之後就不必再翻設定。</string>
+    <string name="ob_device_label">本機 %1$s</string>
+    <string name="ob_section_permissions">權限</string>
+    <string name="ob_section_personalize">個人化</string>
+    <string name="ob_notifications_title">通知</string>
+    <string name="ob_notifications_desc">電池懸浮窗運作時需要常駐通知，關閉後懸浮窗可能被系統中斷。</string>
+    <string name="ob_notifications_on">已開啟</string>
+    <string name="ob_notifications_off">未開啟</string>
+    <string name="ob_notifications_action">允許</string>
+    <string name="ob_overlay_title">懸浮窗</string>
+    <string name="ob_overlay_desc">在其它應用之上顯示電池溫度、電量與即時功耗。</string>
+    <string name="ob_overlay_on">已授權</string>
+    <string name="ob_overlay_off">未授權</string>
+    <string name="ob_overlay_action">授權</string>
+    <string name="ob_apps_title">應用程式列表</string>
+    <string name="ob_apps_desc">讀取已安裝清單以統計數量與儲存佔用，資料只留在本機。</string>
+    <string name="ob_apps_on">已允許</string>
+    <string name="ob_apps_off">未允許</string>
+    <string name="ob_apps_action">允許</string>
+    <string name="ob_language_title">語言</string>
+    <string name="ob_language_desc">介面語言，之後可隨時更改。</string>
+    <string name="ob_language_dialog">選擇語言</string>
+    <string name="ob_language_system">跟隨系統</string>
+    <string name="ob_accent_title">應用色彩</string>
+    <string name="ob_accent_desc">跟隨桌布取色，或選一個固定的強調色。</string>
+    <string name="ob_accent_dialog">選擇色彩</string>
+    <string name="ob_accent_wallpaper">跟隨桌布</string>
+    <string name="ob_accent_green">經典綠</string>
+    <string name="ob_accent_blue">海藍</string>
+    <string name="ob_accent_purple">紫羅蘭</string>
+    <string name="ob_accent_amber">琥珀</string>
+    <string name="ob_accent_rose">玫瑰</string>
+    <string name="ob_accent_unsupported">此裝置不支援桌布取色，將使用經典綠。</string>
+    <string name="ob_change">更改</string>
+    <string name="ob_footer_hint">權限之後也可以在系統設定中調整。</string>
+    <string name="ob_start">開始使用</string>
+    <string name="ob_skip">略過</string>
+    <string name="ob_reopen">重新開啟歡迎頁</string>
+
+    <!-- 應用架構詳情 -->
+    <string name="apps_detail_loading">載入應用架構中…</string>
+    <string name="apps_detail_failed">無法讀取此應用的詳細資訊。</string>
+    <string name="apps_detail_version">版本</string>
+    <string name="apps_detail_version_value">%1$s (%2$d)</string>
+    <string name="apps_detail_sdk">最低 SDK</string>
+    <string name="apps_detail_installer">安裝來源</string>
+    <string name="apps_detail_unknown">未知</string>
+    <string name="apps_detail_installed">安裝日期</string>
+    <string name="apps_detail_updated">更新日期</string>
+    <string name="apps_detail_splits">分包 APK</string>
+    <string name="apps_detail_components">元件</string>
+    <string name="apps_detail_components_value">%1$s 活動 · %2$s 服務 · %3$s 廣播接收器 · %4$s 內容提供者</string>
+    <string name="apps_detail_permissions">權限</string>
+    <string name="apps_detail_native_title">原生庫 · %1$d 個</string>
+    <string name="apps_detail_native_none">未包含原生庫（純 Kotlin / Java 應用）</string>
+    <string name="apps_detail_target_sdk">目標 SDK</string>
+    <string name="apps_detail_libs_more">… 另有 %1$d 個</string>
+</resources>

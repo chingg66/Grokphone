@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.18.0 設定頁 / 電池健康度與報告 -->
+    <string name="settings_title">設定</string>
+    <string name="settings_section_general">一般</string>
+    <string name="settings_section_about">情報</string>
+    <string name="settings_temp_unit">温度単位</string>
+    <string name="settings_temp_c">摂氏 °C</string>
+    <string name="settings_temp_f">華氏 °F</string>
+    <string name="settings_battery_calibration">バッテリー補正</string>
+    <string name="settings_dual_cell">デュアルセル機種</string>
+    <string name="settings_dual_cell_desc">直列デュアルセル機は2セルの合計を報告します。有効にすると容量を÷2表示</string>
+    <string name="settings_power_factor">消費電力補正</string>
+    <string name="settings_power_factor_desc">電流計の読みに固定のずれがある場合に表示倍率を調整</string>
+    <string name="settings_changelog">更新履歴</string>
+    <string name="settings_reopen_onboarding">ようこそ画面を再表示</string>
+    <string name="back_preview">戻る</string>
+    <string name="bat_label_full_charge">満充電容量</string>
+    <string name="bat_capacity_health">容量健康度</string>
+    <string name="bat_health_excellent">優良</string>
+    <string name="bat_health_good">良好</string>
+    <string name="bat_health_fair">低下</string>
+    <string name="bat_health_poor">バッテリー交換を推奨</string>
+    <string name="bat_report_title">デバイスレポート</string>
+    <string name="bat_report_desc">デバイスとバッテリーの概要レポートを生成し、共有またはコピーできます</string>
+    <string name="bat_report_share">共有</string>
+    <string name="bat_report_copy">コピー</string>
+    <string name="bat_report_time">時刻</string>
+    <string name="bat_report_device">デバイス</string>
+    <string name="bat_report_model">モデル</string>
+    <string name="bat_report_battery">バッテリー</string>
+    <string name="bat_report_health_sys">システム状態</string>
+    <string name="bat_report_calibration">適用中の補正</string>
+    <string name="bat_label_level">残量</string>
+    <string name="bat_label_status">状態</string>
+</resources>

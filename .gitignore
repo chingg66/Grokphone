@@ -1,0 +1,13 @@
+*.iml
+.gradle/
+.idea/
+.kotlin/
+cxx/
+local.properties
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+*.apk.idsig
+Grokphone-v1.18.0-debug.apk

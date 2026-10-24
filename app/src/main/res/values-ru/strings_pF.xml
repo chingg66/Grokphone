@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.18.0 設定頁 / 電池健康度與報告 -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_section_general">Общие</string>
+    <string name="settings_section_about">О приложении</string>
+    <string name="settings_temp_unit">Единица температуры</string>
+    <string name="settings_temp_c">Цельсий °C</string>
+    <string name="settings_temp_f">Фаренгейт °F</string>
+    <string name="settings_battery_calibration">Калибровка батареи</string>
+    <string name="settings_dual_cell">Два элемента</string>
+    <string name="settings_dual_cell_desc">Устройства с последовательными элементами показывают сумму обоих; при включении ёмкость делится на 2</string>
+    <string name="settings_power_factor">Коррекция мощности</string>
+    <string name="settings_power_factor_desc">Настройте множитель, если показания амперметра имеют постоянное отклонение</string>
+    <string name="settings_changelog">Журнал изменений</string>
+    <string name="settings_reopen_onboarding">Открыть приветственный экран</string>
+    <string name="back_preview">Назад</string>
+    <string name="bat_label_full_charge">Полная ёмкость заряда</string>
+    <string name="bat_capacity_health">Здоровье ёмкости</string>
+    <string name="bat_health_excellent">Отлично</string>
+    <string name="bat_health_good">Хорошо</string>
+    <string name="bat_health_fair">Снижена</string>
+    <string name="bat_health_poor">Пора заменить батарею</string>
+    <string name="bat_report_title">Отчёт об устройстве</string>
+    <string name="bat_report_desc">Создать сводку об устройстве и батарее для отправки или копирования</string>
+    <string name="bat_report_share">Поделиться</string>
+    <string name="bat_report_copy">Копировать</string>
+    <string name="bat_report_time">Время</string>
+    <string name="bat_report_device">Устройство</string>
+    <string name="bat_report_model">Модель</string>
+    <string name="bat_report_battery">Батарея</string>
+    <string name="bat_report_health_sys">Состояние системы</string>
+    <string name="bat_report_calibration">Применённая калибровка</string>
+    <string name="bat_label_level">Заряд</string>
+    <string name="bat_label_status">Статус</string>
+</resources>

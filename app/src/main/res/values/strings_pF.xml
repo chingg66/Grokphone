@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.18.0 設定頁 / 電池健康度與報告 -->
+    <string name="settings_title">設定</string>
+    <string name="settings_section_general">一般</string>
+    <string name="settings_section_about">關於</string>
+    <string name="settings_temp_unit">溫度單位</string>
+    <string name="settings_temp_c">攝氏 °C</string>
+    <string name="settings_temp_f">華氏 °F</string>
+    <string name="settings_battery_calibration">電池校正</string>
+    <string name="settings_dual_cell">雙電芯機型</string>
+    <string name="settings_dual_cell_desc">串聯雙電芯的容量讀數為兩顆電芯之和，開啟後容量顯示 ÷2</string>
+    <string name="settings_power_factor">功耗校正</string>
+    <string name="settings_power_factor_desc">電流計讀數若有固定偏差，可調整顯示倍率</string>
+    <string name="settings_changelog">更新日誌</string>
+    <string name="settings_reopen_onboarding">重新開啟歡迎頁</string>
+    <string name="back_preview">返回</string>
+    <string name="bat_label_full_charge">滿充容量</string>
+    <string name="bat_capacity_health">容量健康度</string>
+    <string name="bat_health_excellent">優良</string>
+    <string name="bat_health_good">良好</string>
+    <string name="bat_health_fair">衰退</string>
+    <string name="bat_health_poor">建議更換電池</string>
+    <string name="bat_report_title">手機報告</string>
+    <string name="bat_report_desc">產生裝置與電池的摘要報告，可分享或複製後上傳</string>
+    <string name="bat_report_share">分享</string>
+    <string name="bat_report_copy">複製</string>
+    <string name="bat_report_time">時間</string>
+    <string name="bat_report_device">裝置</string>
+    <string name="bat_report_model">型號</string>
+    <string name="bat_report_battery">電池</string>
+    <string name="bat_report_health_sys">系統健康狀態</string>
+    <string name="bat_report_calibration">已套用校正</string>
+    <string name="bat_label_level">電量</string>
+    <string name="bat_label_status">狀態</string>
+</resources>

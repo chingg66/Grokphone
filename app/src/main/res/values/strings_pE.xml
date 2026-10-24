@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Components.kt -->
+    <string name="cmp_collapse">收起</string>
+    <string name="cmp_expand">展開</string>
+
+    <!-- GlassSurface.kt -->
+    <string name="gs_dialog_confirm">知道了</string>
+    <string name="gs_reason_api">系統版本低於 Android 13，已降級為磨砂表面</string>
+    <string name="gs_reason_arch">當前 CPU 架構（%1$s）缺少原生庫，已降級</string>
+    <string name="gs_reason_native">原生渲染庫載入失敗，已降級</string>
+    <string name="gs_unknown_abi">未知</string>
+
+    <!-- PermissionCard.kt -->
+    <string name="pc_grant">授權</string>
+
+    <!-- SocBrandLogo.kt -->
+    <string name="sbl_logo_desc">%1$s 標誌</string>
+
+    <!-- ChangelogDialog.kt（僅固定 UI 文案，changelog 歷史條目保留原文） -->
+    <string name="cl_title">更新日誌</string>
+    <string name="cl_subtitle">機懂 各版本改動一覽</string>
+    <string name="cl_close">關閉</string>
+
+    <!-- BatteryOverlayService.kt -->
+    <string name="svc_power_in">入</string>
+    <string name="svc_power_out">出</string>
+
+    <!-- BatteryWidgetProvider.kt -->
+    <string name="wdg_charging">充電中</string>
+    <string name="wdg_discharging">放電</string>
+
+    <!-- Fmt.kt -->
+    <string name="fmt_duration_zero">0 分鐘</string>
+    <string name="fmt_unit_day">"%1$d 天 "</string>
+    <string name="fmt_unit_hour">"%1$d 小時 "</string>
+    <string name="fmt_unit_minute">"%1$d 分鐘 "</string>
+    <string name="fmt_unit_second">%1$d 秒</string>
+    <string name="fmt_duration_d_h">%1$d天 %2$d小時</string>
+    <string name="fmt_duration_h_m">%1$d小時 %2$d分鐘</string>
+    <string name="fmt_duration_m">%1$d分鐘</string>
+    <string name="fmt_power_in">入</string>
+    <string name="fmt_power_out">出</string>
+</resources>

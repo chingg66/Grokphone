@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- data/model、DeviceRepository、DeviceViewModel 与 data/internal 探测类抽取的字串（L10n.s 调用点） -->
+<resources>
+    <!-- DeviceViewModel -->
+    <string name="vm_load_failed">讀取設備資訊失敗</string>
+
+    <!-- DeviceCollector / NetworkProbe / 通用 -->
+    <string name="prb_unknown">未知</string>
+    <string name="prb_net_disconnected">未連接</string>
+    <string name="prb_net_connected">已連接</string>
+    <string name="prb_net_cellular">行動網路</string>
+    <string name="prb_net_ethernet">乙太網</string>
+    <string name="prb_net_bluetooth_tether">藍牙共享</string>
+    <string name="prb_net_type_fallback">類型 %1$d</string>
+
+    <!-- BatteryProbe -->
+    <string name="prb_battery_charging">充電中</string>
+    <string name="prb_battery_discharging">放電</string>
+    <string name="prb_battery_full">已充滿</string>
+    <string name="prb_battery_not_charging">未充電</string>
+    <string name="prb_battery_ac">AC 充電器</string>
+    <string name="prb_battery_wireless">無線充電</string>
+    <string name="prb_battery_not_plugged">未連接電源</string>
+    <string name="prb_health_good">良好</string>
+    <string name="prb_health_overheat">過熱</string>
+    <string name="prb_health_dead">損壞</string>
+    <string name="prb_health_over_voltage">電壓過高</string>
+    <string name="prb_health_cold">溫度過低</string>
+    <string name="prb_health_failure">異常</string>
+
+    <!-- CpuReader -->
+    <string name="prb_cluster_unified">統一核心</string>
+    <string name="prb_cluster_prime">超大核</string>
+    <string name="prb_cluster_efficiency">能效核</string>
+    <string name="prb_cluster_performance">性能核</string>
+    <string name="prb_cluster_label">%1$s · %2$d 核%3$s</string>
+
+    <!-- GpuProbe -->
+    <string name="prb_gpu_unknown">未知 GPU</string>
+    <string name="prb_gpu_node_readable">GPU 節點可讀</string>
+
+    <!-- SensorProbe -->
+    <string name="prb_sensor_unnamed">未命名感測器</string>
+    <string name="prb_sensor_accelerometer">加速計</string>
+    <string name="prb_sensor_magnetic_field">磁場</string>
+    <string name="prb_sensor_gyroscope">陀螺儀</string>
+    <string name="prb_sensor_light">光線</string>
+    <string name="prb_sensor_proximity">接近</string>
+    <string name="prb_sensor_pressure">氣壓</string>
+    <string name="prb_sensor_gravity">重力</string>
+    <string name="prb_sensor_linear_accel">線性加速</string>
+    <string name="prb_sensor_rotation_vector">旋轉矢量</string>
+    <string name="prb_sensor_humidity">相對溼度</string>
+    <string name="prb_sensor_ambient_temp">環境溫度</string>
+    <string name="prb_sensor_orientation">方位</string>
+    <string name="prb_sensor_step_counter">計步器</string>
+    <string name="prb_sensor_step_detector">步伐檢測</string>
+    <string name="prb_sensor_heart_rate">心率</string>
+    <string name="prb_sensor_game_rotation">遊戲旋轉矢量</string>
+    <string name="prb_sensor_geomagnetic_rotation">地磁旋轉矢量</string>
+    <string name="prb_sensor_significant_motion">顯著運動</string>
+    <string name="prb_sensor_magnetic_uncalibrated">未校準磁場</string>
+    <string name="prb_sensor_gyro_uncalibrated">未校準陀螺儀</string>
+    <string name="prb_sensor_accel_uncalibrated">未校準加速計</string>
+    <string name="prb_sensor_pose_6dof">6DOF 姿態</string>
+    <string name="prb_sensor_stationary_detect">靜止檢測</string>
+    <string name="prb_sensor_motion_detect">運動檢測</string>
+    <string name="prb_sensor_heart_beat">心跳</string>
+    <string name="prb_sensor_offbody_detect">離體檢測</string>
+    <string name="prb_sensor_type_fallback">感測器 %1$d</string>
+    <string name="prb_unit_step">步</string>
+
+    <!-- CameraProbe / CameraLiveProbe -->
+    <string name="prb_cam_back">後置</string>
+    <string name="prb_cam_front">前置</string>
+    <string name="prb_cam_lens">鏡頭</string>
+    <string name="prb_cam_external">外接</string>
+    <string name="prb_cam_no_service">無法取得相機服務</string>
+    <string name="prb_cam_none_available">沒有可用相機</string>
+    <string name="prb_cam_read_failed">無法讀取相機參數</string>
+    <string name="prb_cam_no_frames">未能取得影像幀（鏡頭可能被其他應用佔用）</string>
+    <string name="prb_cam_stream_failed">串流建立失敗</string>
+    <string name="prb_cam_disconnected">相機連線中斷</string>
+    <string name="prb_cam_open_failed">相機開啟失敗（代碼 %1$d）</string>
+    <string name="prb_cam_live_result">%1$s (ID %2$s) · %3$d × %4$d · %5$.1f fps（%6$d 幀）</string>
+</resources>

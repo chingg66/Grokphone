@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AppsScreen -->
+    <string name="apps_title">應用程式</string>
+    <string name="apps_filter_all">全部</string>
+    <string name="apps_filter_user">使用者</string>
+    <string name="apps_filter_system">系統</string>
+    <string name="apps_empty">沒有可展示的應用。</string>
+    <string name="apps_title_restricted">應用程式列表受限</string>
+    <string name="apps_title_permission">應用程式列表權限</string>
+    <string name="apps_tag_rom_blocked">ROM 攔截</string>
+    <string name="apps_tag_perm_not_granted">權限未授予</string>
+    <string name="apps_tag_declined">已暫不允許</string>
+    <string name="apps_tag_waiting">等待授權</string>
+    <string name="apps_visible_count">可見 %1$d 個</string>
+    <string name="apps_local_only">本機處理</string>
+    <string name="apps_desc_rom_blocked">QUERY_ALL_PACKAGES 已授予，但系統仍只回傳 %1$d 個套件——這是 MIUI / HyperOS 等 ROM 自帶的「讀取應用程式清單」開關在攔截。請到 權限管理 → 其他權限 → 讀取應用程式清單 開啟本應用的權限後再重新掃描。</string>
+    <string name="apps_desc_restricted">系統未放行 QUERY_ALL_PACKAGES，目前僅能看到 %1$d 個可見應用。請到系統設定確認本應用的權限，或重新安裝本應用讓權限聲明生效。</string>
+    <string name="apps_desc_declined">已略過讀取應用程式列表，清單不會顯示。需要時可隨時在這裡重新允許，或先到系統設定確認權限狀態。</string>
+    <string name="apps_desc_intro">讀取已安裝應用清單後，才能統計安裝包大小、版本與 targetSdk。清單只在這台裝置上分析，不會上傳，也不會分享給任何第三方。</string>
+    <string name="apps_rescan">重新掃描</string>
+    <string name="apps_open_settings">開啟權限設定</string>
+    <string name="apps_system_settings">系統設定</string>
+    <string name="apps_reallow">重新允許</string>
+    <string name="apps_decline">暫不允許</string>
+    <string name="apps_allow">允許讀取</string>
+    <string name="apps_summary_counts">使用者 %1$d · 系統 %2$d</string>
+    <string name="apps_summary_size">安裝包合計 %1$s</string>
+    <string name="apps_full_list">完整列表</string>
+    <string name="apps_partial_list">部分列表</string>
+    <string name="apps_system">系統</string>
+    <string name="apps_version_line">v%1$s · targetSdk %2$d</string>
+
+    <!-- SpeedTestCard -->
+    <string name="spd_title">測速</string>
+    <string name="spd_phase_idle">待機</string>
+    <string name="spd_phase_latency">測延遲</string>
+    <string name="spd_phase_downloading">測速中</string>
+    <string name="spd_phase_done">完成</string>
+    <string name="spd_phase_error">失敗</string>
+    <string name="spd_stop">停止</string>
+    <string name="spd_start">開始測速</string>
+    <string name="spd_avg_label">平均下載速率 (Mbps)</string>
+    <string name="spd_live_label">即時下載速率 (Mbps)</string>
+    <string name="spd_not_started">尚未測速</string>
+    <string name="spd_download_label">下載速率 (Mbps)</string>
+    <string name="spd_label_ttfb">首字節延遲</string>
+    <string name="spd_label_peak">峰值速率</string>
+    <string name="spd_label_avg">平均速率</string>
+    <string name="spd_label_node">節點</string>
+    <string name="spd_hint">透過公開測速節點串流下載，約消耗 10–35 MB 流量。</string>
+    <string name="spd_error_node">%1$s：%2$s</string>
+    <string name="spd_error_conn_failed">連線失敗</string>
+    <string name="spd_error_all_nodes">所有測速節點都連不上（%1$s）</string>
+    <string name="spd_error_low_bytes">%1$s 在 %2$d ms 內只收到 %3$d 位元組</string>
+    <string name="spd_error_download_interrupted">下載中斷</string>
+    <string name="spd_error_failed">測速失敗，已試過 %1$d 個節點。%2$s</string>
+
+    <!-- NetworkScreen -->
+    <string name="net_title_location_perm">定位權限</string>
+    <string name="net_desc_location_perm">Android 10 起，Wi-Fi 名稱（SSID）與路由地址（BSSID）必須有定位權限才能讀取。本應用不會使用 GPS 或取得你的位置，該權限僅用於解鎖這兩項 Wi-Fi 標識。</string>
+    <string name="net_title_connection">連接</string>
+    <string name="net_online">已聯網</string>
+    <string name="net_offline">離線</string>
+    <string name="net_label_down_bw">下行帶寬</string>
+    <string name="net_label_up_bw">上行帶寬</string>
+    <string name="net_title_traffic">鏈路統計</string>
+    <string name="net_label_wifi_speed">Wi-Fi 協商速率</string>
+    <string name="net_label_wifi_band">Wi-Fi 頻段</string>
+    <string name="net_label_signal">信號強度</string>
+    <string name="net_traffic_since_boot">自上次開機累計流量</string>
+    <string name="net_title_cellular">行動網路</string>
+    <string name="net_label_carrier">運營商</string>
+    <string name="net_label_mobile_type">網路類型</string>
+    <string name="net_label_wifi_ssid">Wi-Fi 名稱</string>
+    <string name="net_label_bssid">路由地址</string>
+    <string name="net_value_unauthorized_offline">未授權或離線</string>
+    <string name="net_hint_ssid">授予定位權限後，重新進入本頁即可顯示 SSID 與 BSSID。</string>
+
+    <!-- BatteryScreen -->
+    <string name="bat_title">電池</string>
+    <string name="bat_reading">讀取中</string>
+    <string name="bat_label_temp">電池溫度</string>
+    <string name="bat_title_electrical">電參數</string>
+    <string name="bat_label_voltage">電壓</string>
+    <string name="bat_label_current">電流</string>
+    <string name="bat_label_power">瞬時功率</string>
+    <string name="bat_label_technology">電池技術</string>
+    <string name="bat_label_design_capacity">設計容量</string>
+    <string name="bat_label_charge_counter">當前電荷量</string>
+    <string name="bat_label_uptime">累計運行</string>
+    <string name="bat_title_health">健康狀態</string>
+    <string name="bat_unknown">未知</string>
+    <string name="bat_temp_high">溫度偏高</string>
+    <string name="bat_temp_normal">溫度正常</string>
+    <string name="bat_health_hint">溫度過高會觸發系統降頻與限充，長時間遊戲時建議摘下保護殼。</string>
+    <string name="bat_charging">充電</string>
+    <string name="bat_discharging">放電</string>
+</resources>

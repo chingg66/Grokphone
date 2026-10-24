@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.18.0 設定頁 / 電池健康度與報告 -->
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_section_general">Allgemein</string>
+    <string name="settings_section_about">Über</string>
+    <string name="settings_temp_unit">Temperatureinheit</string>
+    <string name="settings_temp_c">Celsius °C</string>
+    <string name="settings_temp_f">Fahrenheit °F</string>
+    <string name="settings_battery_calibration">Akku-Kalibrierung</string>
+    <string name="settings_dual_cell">Dual-Zellen-Gerät</string>
+    <string name="settings_dual_cell_desc">Geräte mit seriellen Doppelzellen melden die Summe beider Zellen; aktiviert wird die Kapazität halbiert</string>
+    <string name="settings_power_factor">Leistungskorrektur</string>
+    <string name="settings_power_factor_desc">Anzeigefaktor anpassen, falls der Amperemeter-Wert eine feste Abweichung hat</string>
+    <string name="settings_changelog">Änderungsprotokoll</string>
+    <string name="settings_reopen_onboarding">Willkommensseite erneut öffnen</string>
+    <string name="back_preview">Zurück</string>
+    <string name="bat_label_full_charge">Volladekapazität</string>
+    <string name="bat_capacity_health">Kapazitätszustand</string>
+    <string name="bat_health_excellent">Ausgezeichnet</string>
+    <string name="bat_health_good">Gut</string>
+    <string name="bat_health_fair">Beeinträchtigt</string>
+    <string name="bat_health_poor">Akku-Austausch empfohlen</string>
+    <string name="bat_report_title">Gerätebericht</string>
+    <string name="bat_report_desc">Erstellt eine Geräte- und Akku-Zusammenfassung zum Teilen oder Kopieren</string>
+    <string name="bat_report_share">Teilen</string>
+    <string name="bat_report_copy">Kopieren</string>
+    <string name="bat_report_time">Zeit</string>
+    <string name="bat_report_device">Gerät</string>
+    <string name="bat_report_model">Modell</string>
+    <string name="bat_report_battery">Akku</string>
+    <string name="bat_report_health_sys">Systemzustand</string>
+    <string name="bat_report_calibration">Angewendete Kalibrierung</string>
+    <string name="bat_label_level">Ladestand</string>
+    <string name="bat_label_status">Status</string>
+</resources>

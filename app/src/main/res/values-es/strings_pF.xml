@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.18.0 設定頁 / 電池健康度與報告 -->
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_section_general">General</string>
+    <string name="settings_section_about">Acerca de</string>
+    <string name="settings_temp_unit">Unidad de temperatura</string>
+    <string name="settings_temp_c">Celsius °C</string>
+    <string name="settings_temp_f">Fahrenheit °F</string>
+    <string name="settings_battery_calibration">Calibración de batería</string>
+    <string name="settings_dual_cell">Dispositivo de doble celda</string>
+    <string name="settings_dual_cell_desc">Los dispositivos de doble celda en serie reportan la suma de ambas; al activarlo la capacidad se divide entre 2</string>
+    <string name="settings_power_factor">Corrección de potencia</string>
+    <string name="settings_power_factor_desc">Ajusta el multiplicador si la lectura del amperímetro tiene una desviación fija</string>
+    <string name="settings_changelog">Registro de cambios</string>
+    <string name="settings_reopen_onboarding">Reabrir pantalla de bienvenida</string>
+    <string name="back_preview">Atrás</string>
+    <string name="bat_label_full_charge">Capacidad de carga completa</string>
+    <string name="bat_capacity_health">Salud de capacidad</string>
+    <string name="bat_health_excellent">Excelente</string>
+    <string name="bat_health_good">Buena</string>
+    <string name="bat_health_fair">Degradada</string>
+    <string name="bat_health_poor">Sustituir la batería</string>
+    <string name="bat_report_title">Informe del dispositivo</string>
+    <string name="bat_report_desc">Genera un resumen del dispositivo y la batería para compartir o copiar</string>
+    <string name="bat_report_share">Compartir</string>
+    <string name="bat_report_copy">Copiar</string>
+    <string name="bat_report_time">Hora</string>
+    <string name="bat_report_device">Dispositivo</string>
+    <string name="bat_report_model">Modelo</string>
+    <string name="bat_report_battery">Batería</string>
+    <string name="bat_report_health_sys">Estado del sistema</string>
+    <string name="bat_report_calibration">Calibración aplicada</string>
+    <string name="bat_label_level">Nivel</string>
+    <string name="bat_label_status">Estado</string>
+</resources>

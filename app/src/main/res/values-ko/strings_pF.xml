@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.18.0 設定頁 / 電池健康度與報告 -->
+    <string name="settings_title">설정</string>
+    <string name="settings_section_general">일반</string>
+    <string name="settings_section_about">정보</string>
+    <string name="settings_temp_unit">온도 단위</string>
+    <string name="settings_temp_c">섭씨 °C</string>
+    <string name="settings_temp_f">화씨 °F</string>
+    <string name="settings_battery_calibration">배터리 보정</string>
+    <string name="settings_dual_cell">듀얼 셀 기기</string>
+    <string name="settings_dual_cell_desc">직렬 듀얼 셀 기기는 두 셀의 합을 표시합니다. 켜면 용량이 ÷2로 표시됩니다</string>
+    <string name="settings_power_factor">소비 전력 보정</string>
+    <string name="settings_power_factor_desc">전류계 값에 고정 오차가 있으면 표시 배율을 조정하세요</string>
+    <string name="settings_changelog">업데이트 로그</string>
+    <string name="settings_reopen_onboarding">환영 화면 다시 열기</string>
+    <string name="back_preview">뒤로</string>
+    <string name="bat_label_full_charge">완충 용량</string>
+    <string name="bat_capacity_health">용량 상태</string>
+    <string name="bat_health_excellent">우수</string>
+    <string name="bat_health_good">양호</string>
+    <string name="bat_health_fair">저하</string>
+    <string name="bat_health_poor">배터리 교체 권장</string>
+    <string name="bat_report_title">기기 보고서</string>
+    <string name="bat_report_desc">기기와 배터리 요약 보고서를 생성하여 공유하거나 복사할 수 있습니다</string>
+    <string name="bat_report_share">공유</string>
+    <string name="bat_report_copy">복사</string>
+    <string name="bat_report_time">시간</string>
+    <string name="bat_report_device">기기</string>
+    <string name="bat_report_model">모델</string>
+    <string name="bat_report_battery">배터리</string>
+    <string name="bat_report_health_sys">시스템 상태</string>
+    <string name="bat_report_calibration">적용된 보정</string>
+    <string name="bat_label_level">잔량</string>
+    <string name="bat_label_status">상태</string>
+</resources>

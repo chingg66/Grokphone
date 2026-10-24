@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v1.18.0 設定頁 / 電池健康度與報告 -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_general">General</string>
+    <string name="settings_section_about">About</string>
+    <string name="settings_temp_unit">Temperature unit</string>
+    <string name="settings_temp_c">Celsius °C</string>
+    <string name="settings_temp_f">Fahrenheit °F</string>
+    <string name="settings_battery_calibration">Battery calibration</string>
+    <string name="settings_dual_cell">Dual-cell device</string>
+    <string name="settings_dual_cell_desc">Series dual-cell phones report the sum of both cells; enabling divides capacity by 2</string>
+    <string name="settings_power_factor">Power correction</string>
+    <string name="settings_power_factor_desc">Adjust the display multiplier if the ammeter reading has a constant offset</string>
+    <string name="settings_changelog">Changelog</string>
+    <string name="settings_reopen_onboarding">Reopen welcome screen</string>
+    <string name="back_preview">Back</string>
+    <string name="bat_label_full_charge">Full-charge capacity</string>
+    <string name="bat_capacity_health">Capacity health</string>
+    <string name="bat_health_excellent">Excellent</string>
+    <string name="bat_health_good">Good</string>
+    <string name="bat_health_fair">Degraded</string>
+    <string name="bat_health_poor">Battery replacement advised</string>
+    <string name="bat_report_title">Device report</string>
+    <string name="bat_report_desc">Generate a summary of the device and battery to share or copy</string>
+    <string name="bat_report_share">Share</string>
+    <string name="bat_report_copy">Copy</string>
+    <string name="bat_report_time">Time</string>
+    <string name="bat_report_device">Device</string>
+    <string name="bat_report_model">Model</string>
+    <string name="bat_report_battery">Battery</string>
+    <string name="bat_report_health_sys">System health</string>
+    <string name="bat_report_calibration">Calibration applied</string>
+    <string name="bat_label_level">Level</string>
+    <string name="bat_label_status">Status</string>
+</resources>

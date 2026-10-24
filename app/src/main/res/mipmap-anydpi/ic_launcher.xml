@@ -1,0 +1,50 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 底色 -->
+    <path
+        android:fillColor="#0C0F0D"
+        android:pathData="M0,0 L108,0 L108,108 L0,108 Z" />
+    <!-- 晶片本體 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#7BE495"
+        android:strokeWidth="4.5"
+        android:pathData="M45,36 L63,36 A9,9 0 0,1 72,45 L72,63 A9,9 0 0,1 63,72 L45,72 A9,9 0 0,1 36,63 L36,45 A9,9 0 0,1 45,36 Z" />
+    <!-- 脈衝波形 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#7BE495"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M42,54 L48,54 L51,46 L57,62 L60,54 L66,54" />
+    <!-- 左右腳位 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#7BE495"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M27,43 L36,43 M27,54 L36,54 M27,65 L36,65" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#7BE495"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M72,43 L81,43 M72,54 L81,54 M72,65 L81,65" />
+    <!-- 上下腳位 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#7BE495"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M43,27 L43,36 M54,27 L54,36 M65,27 L65,36" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#7BE495"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M43,72 L43,81 M54,72 L54,81 M65,72 L65,81" />
+</vector>
